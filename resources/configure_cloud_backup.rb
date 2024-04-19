@@ -11,7 +11,7 @@ property :version_retention, Integer, required: true
 property :frequency, String
 property :start_time_hour, Integer
 property :start_time_minute, Integer
-property :start_time_am_pm, Integer
+property :start_time_am_pm, String
 property :day_of_week_id, Integer
 property :hour_interval, Integer
 property :time_zone_id, String, default: 'UTC'
