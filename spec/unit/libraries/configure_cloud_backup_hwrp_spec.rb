@@ -40,7 +40,7 @@ module ConfigureCloudBackupHwrpSpecHelpers
       frequency:               { test_value: 'frequency Attribute Test Value',               required: false, default: nil },
       start_time_hour:         { test_value: 1234,                                           required: false, default: nil },
       start_time_minute:       { test_value: 2345,                                           required: false, default: nil },
-      start_time_am_pm:        { test_value: 3456,                                           required: false, default: nil },
+      start_time_am_pm:        { test_value: 'start_time_am_pm Attribute Test Value',        required: false, default: nil },
       day_of_week_id:          { test_value: 4567,                                           required: false, default: nil },
       hour_interval:           { test_value: 5678,                                           required: false, default: nil },
       time_zone_id:            { test_value: 'time_zone_id Attribute Test Value',            required: false, default: 'UTC' },

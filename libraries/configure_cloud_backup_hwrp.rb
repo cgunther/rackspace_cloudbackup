@@ -92,7 +92,7 @@ class Chef
       end
 
       def start_time_am_pm(arg = nil)
-        set_or_return(:start_time_am_pm, arg, kind_of: Integer)
+        set_or_return(:start_time_am_pm, arg, kind_of: String)
       end
 
       def day_of_week_id(arg = nil)
