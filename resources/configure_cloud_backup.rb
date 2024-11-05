@@ -49,7 +49,7 @@ action :create do
 end
 
 action :create_if_missing do
-  if new_resource.api_obj.backup_obj.BackupConfigurationId.nil?
+  if api_obj.backup_obj.BackupConfigurationId.nil?
     action_create
   else
     new_resource.updated_by_last_action(false)
